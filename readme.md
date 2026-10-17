@@ -66,13 +66,13 @@ Modules without content must be marked with `"comingSoon": true`.
 
 The Vite base path is configured for a repository named `exam-sprint-public`.
 
-Before publishing:
+Deployment is automated by `.github/workflows/deploy.yml`: every push to `main` runs `npm run check` and publishes `dist/` to GitHub Pages.
 
-1. Run `npm run check`.
-2. Confirm that no passwords, API keys or personal data are present.
-3. Build with `npm run build`.
-4. Publish the generated `dist/` directory using GitHub Pages or the repository's approved deployment workflow.
-5. Open the published link in a private browser window and test Practice, Review, Dashboard, course switching and the Back button.
+One-time setup (repository admin): **Settings → Pages → Source: GitHub Actions**.
+
+Live demo: https://heinesel.github.io/exam-sprint-public/
+
+After publishing, open the link in a private browser window and test Practice, Review, Dashboard, course switching and the Back button.
 
 ## AI-assisted development
 

@@ -1,0 +1,11 @@
+{
+  "id": "datasikkerhet",
+  "name": "Cipher Harbor",
+  "short": "Cipher Harbor",
+  "modules": [
+    {
+      "id": "harbor-protocol",
+      "title": "Demo 1: Harbor Protocol"
+    }
+  ]
+}

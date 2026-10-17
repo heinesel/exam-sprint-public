@@ -2,6 +2,8 @@
 
 ExamSprint is a small study app for active exam practice. Students choose a subject and module, answer short quizzes, review mistakes and see which topics need more work.
 
+This public repository uses original fictional demo content. It does not include lecture slides, Canvas material or questions copied from a course. The included worlds, rules, notes and quizzes were written specifically to demonstrate the app.
+
 The prototype was created for Mandatory Assignment 3 in DAVE3625 – Introduction to Artificial Intelligence. It demonstrates how generative AI can support brainstorming, implementation, testing and iterative improvement.
 
 ## Core features
@@ -62,7 +64,7 @@ Modules without content must be marked with `"comingSoon": true`.
 
 ## GitHub Pages
 
-The Vite base path is configured for a repository named `exam-sprint`.
+The Vite base path is configured for a repository named `exam-sprint-public`.
 
 Before publishing:
 

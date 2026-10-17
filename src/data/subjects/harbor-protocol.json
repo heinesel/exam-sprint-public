@@ -1,0 +1,183 @@
+{
+  "moduleId": "harbor-protocol",
+  "source": "Original fictional demo content created for ExamSprint",
+  "notes": [
+    {
+      "id": "harbor-access",
+      "title": "Welcome to Cipher Harbor",
+      "paragraphs": [
+        "Cipher Harbor is an imaginary floating city. Its training vault uses colored badges and simple rules so new harbor keepers can practice careful decision-making.",
+        "A teal badge opens the Map Room. An amber badge opens the Engine Deck. Visitors may enter either room only when escorted by a keeper with the matching badge."
+      ],
+      "bullets": [
+        "Map Room: teal badge",
+        "Engine Deck: amber badge",
+        "Visitor: matching escort required"
+      ]
+    },
+    {
+      "id": "spark-seals",
+      "title": "Spark seals",
+      "paragraphs": [
+        "Every supply parcel receives a fictional spark seal. Add the parcel's three rune values and keep only the last digit. A parcel marked 4, 7 and 5 therefore receives seal 6 because 4 + 7 + 5 = 16.",
+        "The receiver calculates the value again. A different result means the parcel changed or the label was copied incorrectly, so it must be inspected."
+      ],
+      "bullets": [
+        "Seal = last digit of the rune sum",
+        "Matching seal: continue the delivery check",
+        "Different seal: stop and inspect"
+      ]
+    },
+    {
+      "id": "night-watch",
+      "title": "The night-watch drill",
+      "paragraphs": [
+        "When an alarm appears, keepers follow four fictional steps in order: identify the affected pier, isolate its gate, restore the latest clean map, and record what happened.",
+        "Skipping directly to restoration can spread confusion because the affected gate may still be connected to the rest of the harbor."
+      ],
+      "bullets": [
+        "1. Identify",
+        "2. Isolate",
+        "3. Restore",
+        "4. Record"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "easy",
+      "text": "Which badge opens the fictional Map Room?",
+      "options": ["Teal", "Amber", "Purple", "White"],
+      "correct": 0,
+      "explanation": "The Cipher Harbor rule assigns the teal badge to the Map Room.",
+      "explanationNo": "I de oppdiktede havnereglene brukes det turkise adgangskortet til kartrommet."
+    },
+    {
+      "id": "q2",
+      "difficulty": "easy",
+      "text": "Which badge opens the fictional Engine Deck?",
+      "options": ["Teal", "Amber", "Silver", "Blue"],
+      "correct": 1,
+      "explanation": "The Engine Deck uses the amber badge.",
+      "explanationNo": "Maskindekket bruker det ravfargede adgangskortet."
+    },
+    {
+      "id": "q3",
+      "difficulty": "easy",
+      "text": "What must a visitor have before entering either training room?",
+      "options": ["A matching escort", "A parcel", "A night alarm", "A purple hat"],
+      "correct": 0,
+      "explanation": "Visitors need a keeper whose badge matches the room.",
+      "explanationNo": "En besøkende må følges av en keeper med riktig adgangskort."
+    },
+    {
+      "id": "q4",
+      "difficulty": "easy",
+      "text": "What is the first step in the night-watch drill?",
+      "options": ["Restore", "Record", "Identify", "Celebrate"],
+      "correct": 2,
+      "explanation": "The drill begins by identifying the affected pier.",
+      "explanationNo": "Øvelsen begynner med å identifisere hvilken brygge som er berørt."
+    },
+    {
+      "id": "q5",
+      "difficulty": "easy",
+      "text": "What should happen when a recalculated spark seal is different?",
+      "options": ["Stop and inspect", "Ignore it", "Open every gate", "Change the badge color"],
+      "correct": 0,
+      "explanation": "A different value means the parcel must be inspected.",
+      "explanationNo": "En ulik verdi betyr at pakken må stoppes og undersøkes."
+    },
+    {
+      "id": "q6",
+      "difficulty": "medium",
+      "text": "A parcel has rune values 3, 8 and 4. What spark seal should it receive?",
+      "options": ["3", "4", "5", "15"],
+      "correct": 2,
+      "explanation": "3 + 8 + 4 = 15, and the seal keeps the last digit: 5.",
+      "explanationNo": "3 + 8 + 4 = 15. Seglet bruker det siste sifferet, altså 5."
+    },
+    {
+      "id": "q7",
+      "difficulty": "medium",
+      "text": "A keeper has an amber badge and escorts a visitor. Where may they enter?",
+      "options": ["The Map Room only", "The Engine Deck", "Both rooms without limits", "Neither room"],
+      "correct": 1,
+      "explanation": "The amber badge matches the Engine Deck, so the escort rule is satisfied there.",
+      "explanationNo": "Det ravfargede kortet passer til maskindekket, så følgeregelen er oppfylt der."
+    },
+    {
+      "id": "q8",
+      "difficulty": "medium",
+      "text": "Which sequence follows the night-watch drill correctly?",
+      "options": ["Record, restore, isolate, identify", "Identify, isolate, restore, record", "Isolate, record, identify, restore", "Restore, identify, record, isolate"],
+      "correct": 1,
+      "explanation": "The fictional procedure is identify, isolate, restore, then record.",
+      "explanationNo": "Den oppdiktede prosedyren er identifiser, isoler, gjenopprett og dokumenter."
+    },
+    {
+      "id": "q9",
+      "difficulty": "medium",
+      "text": "A parcel label says seal 2, but rune values 9, 6 and 8 are visible. What should the keeper do?",
+      "options": ["Deliver it immediately", "Stop and inspect it", "Replace the runes", "Send it to the Map Room"],
+      "correct": 1,
+      "explanation": "9 + 6 + 8 = 23, so the expected seal is 3, not 2.",
+      "explanationNo": "9 + 6 + 8 = 23, så riktig segl er 3 og ikke 2. Pakken må undersøkes."
+    },
+    {
+      "id": "q10",
+      "difficulty": "medium",
+      "text": "Why does isolation come before restoration in the drill?",
+      "options": ["To keep the affected gate separated", "To make badges brighter", "To calculate a parcel seal", "To invite more visitors"],
+      "correct": 0,
+      "explanation": "Isolation separates the affected gate before a clean map is restored.",
+      "explanationNo": "Isolering skiller den berørte porten fra resten før et rent kart gjenopprettes."
+    },
+    {
+      "id": "q11",
+      "difficulty": "hard",
+      "text": "A teal keeper escorts two visitors to the Engine Deck. What is the correct decision?",
+      "options": ["Allow them because an escort is present", "Deny entry because the badge does not match", "Allow one visitor only", "Calculate a spark seal first"],
+      "correct": 1,
+      "explanation": "An escort alone is not enough; the escort must carry the badge assigned to that room.",
+      "explanationNo": "Det er ikke nok å ha følge. Keeperen må ha kortet som passer til rommet."
+    },
+    {
+      "id": "q12",
+      "difficulty": "hard",
+      "text": "Two parcels show rune values 1, 4, 8 and 6, 2, 5. Which statement is correct?",
+      "options": ["Their seals are 3 and 3", "Their seals are 13 and 13", "Their seals are 1 and 6", "Their seals are 8 and 5"],
+      "correct": 0,
+      "explanation": "Both sums are 13, so both fictional seals use the last digit 3.",
+      "explanationNo": "Begge summene er 13, så begge seglene får siste siffer 3."
+    },
+    {
+      "id": "q13",
+      "difficulty": "hard",
+      "text": "A gate is restored before it is isolated, and the alarm immediately spreads to another pier. Which missed step best explains the result?",
+      "options": ["The gate was not separated first", "The parcel had no runes", "The visitor had an escort", "The map badge was teal"],
+      "correct": 0,
+      "explanation": "The drill isolates the gate before restoration to stop the problem from spreading.",
+      "explanationNo": "Porten skulle vært isolert før gjenoppretting for å hindre at problemet spredte seg."
+    },
+    {
+      "id": "q14",
+      "difficulty": "hard",
+      "text": "A visitor enters the Map Room with an amber escort and carries a parcel whose seal matches. Which rule is still broken?",
+      "options": ["The room badge rule", "The parcel seal rule", "The recording rule", "No rule is broken"],
+      "correct": 0,
+      "explanation": "The matching parcel seal does not replace the need for a teal Map Room escort.",
+      "explanationNo": "Et riktig pakkesegl erstatter ikke kravet om turkis følge til kartrommet."
+    },
+    {
+      "id": "q15",
+      "difficulty": "hard",
+      "text": "Rune values are 7, 7 and 9. The label shows seal 3, and an amber keeper escorts the parcel to the Engine Deck. What should happen?",
+      "options": ["Continue: both checks pass", "Stop: the seal should be 2", "Stop: amber cannot enter the Engine Deck", "Continue only after changing the seal to 9"],
+      "correct": 0,
+      "explanation": "7 + 7 + 9 = 23, so seal 3 is correct, and amber matches the Engine Deck.",
+      "explanationNo": "7 + 7 + 9 = 23, så segl 3 er riktig. Ravfarget kort passer også til maskindekket."
+    }
+  ]
+}

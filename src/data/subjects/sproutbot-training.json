@@ -1,0 +1,177 @@
+{
+  "moduleId": "sproutbot-training",
+  "source": "Original fictional demo content created for ExamSprint",
+  "notes": [
+    {
+      "id": "orchard",
+      "title": "Meet SproutBot",
+      "paragraphs": [
+        "Pattern Orchard is an imaginary greenhouse where SproutBot sorts glowing plants. Each training card contains a plant's features and a label chosen by the gardeners.",
+        "SproutBot studies the labeled examples, then predicts a label for new plants. It does not understand gardening; it follows patterns in the examples."
+      ],
+      "bullets": [
+        "Features: visible clues such as gold leaves and blue dots",
+        "Label: the result written by a gardener",
+        "Prediction: SproutBot's result for a new plant"
+      ]
+    },
+    {
+      "id": "score",
+      "title": "The fictional glow score",
+      "paragraphs": [
+        "In this demo, glow score = two points for each gold leaf plus one point for each blue dot.",
+        "A score of 7 or more means Harvest. A score from 4 to 6 means Observe. A score of 3 or less means Water. These rules exist only inside Pattern Orchard."
+      ],
+      "bullets": [
+        "7 or more: Harvest",
+        "4 to 6: Observe",
+        "3 or less: Water"
+      ]
+    },
+    {
+      "id": "checking",
+      "title": "Check before release",
+      "paragraphs": [
+        "Gardeners keep some labeled plants in a separate check garden. SproutBot does not see them while learning. Afterwards, the gardeners compare its predictions with the hidden labels.",
+        "They also compare results from the sunny and shaded zones. A large difference is a reason to inspect the examples and collect better data before using the robot."
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "difficulty": "easy",
+      "text": "In Pattern Orchard, what is a feature?",
+      "options": ["A visible clue about a plant", "A robot battery", "A greenhouse door", "A final celebration"],
+      "correct": 0,
+      "explanation": "Features are the clues SproutBot receives, such as gold leaves and blue dots.",
+      "explanationNo": "En feature er et kjennetegn roboten får, som gullblader eller blå prikker."
+    },
+    {
+      "id": "q2",
+      "difficulty": "easy",
+      "text": "Who provides the labels on the training cards?",
+      "options": ["The gardeners", "The weather", "The visitors", "The greenhouse door"],
+      "correct": 0,
+      "explanation": "The fictional gardeners label the examples used for training.",
+      "explanationNo": "De oppdiktede gartnerne merker eksemplene som brukes til trening."
+    },
+    {
+      "id": "q3",
+      "difficulty": "easy",
+      "text": "What does SproutBot produce for a new plant?",
+      "options": ["A prediction", "A new greenhouse", "A gold leaf", "A training card from the past"],
+      "correct": 0,
+      "explanation": "SproutBot uses learned patterns to predict a label.",
+      "explanationNo": "SproutBot bruker mønstre til å forutsi en merkelapp."
+    },
+    {
+      "id": "q4",
+      "difficulty": "easy",
+      "text": "Which score means Harvest?",
+      "options": ["7 or more", "Exactly 5", "3 or less", "Only 0"],
+      "correct": 0,
+      "explanation": "The fictional rule assigns Harvest to scores of 7 or more.",
+      "explanationNo": "I demoreglene betyr 7 poeng eller mer Harvest."
+    },
+    {
+      "id": "q5",
+      "difficulty": "easy",
+      "text": "Why are some plants kept in a separate check garden?",
+      "options": ["To test SproutBot on unseen examples", "To hide all gold leaves forever", "To increase every score", "To remove the labels"],
+      "correct": 0,
+      "explanation": "The separate plants test how the robot performs on examples it did not study.",
+      "explanationNo": "Den separate hagen tester roboten på eksempler den ikke har sett under trening."
+    },
+    {
+      "id": "q6",
+      "difficulty": "medium",
+      "text": "A plant has 2 gold leaves and 1 blue dot. What is its glow score?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 2,
+      "explanation": "Two gold leaves give 4 points and one blue dot gives 1, for a total of 5.",
+      "explanationNo": "To gullblader gir 4 poeng, og én blå prikk gir 1. Totalt blir det 5."
+    },
+    {
+      "id": "q7",
+      "difficulty": "medium",
+      "text": "A plant has 3 gold leaves and 2 blue dots. Which label does it receive?",
+      "options": ["Water", "Observe", "Harvest", "Unknown"],
+      "correct": 2,
+      "explanation": "The score is 3 × 2 + 2 = 8, which is Harvest.",
+      "explanationNo": "Poengsummen er 3 × 2 + 2 = 8, og det gir Harvest."
+    },
+    {
+      "id": "q8",
+      "difficulty": "medium",
+      "text": "A plant has 1 gold leaf and 2 blue dots. Which label does it receive?",
+      "options": ["Water", "Observe", "Harvest", "Discard"],
+      "correct": 1,
+      "explanation": "The score is 2 + 2 = 4, which falls in the Observe range.",
+      "explanationNo": "Poengsummen er 2 + 2 = 4, som ligger i Observe-området."
+    },
+    {
+      "id": "q9",
+      "difficulty": "medium",
+      "text": "SproutBot scores well on training cards but poorly in the check garden. What is the best next step?",
+      "options": ["Inspect the examples before release", "Delete the check garden", "Assume every prediction is correct", "Remove all labels"],
+      "correct": 0,
+      "explanation": "Poor performance on unseen examples is a reason to inspect the training process and data.",
+      "explanationNo": "Dårlige resultater på nye eksempler betyr at treningen og dataene bør undersøkes."
+    },
+    {
+      "id": "q10",
+      "difficulty": "medium",
+      "text": "Why compare results from sunny and shaded zones?",
+      "options": ["To find large performance differences", "To make every plant gold", "To avoid checking predictions", "To change the score formula automatically"],
+      "correct": 0,
+      "explanation": "The gardeners compare zones to spot uneven performance that needs investigation.",
+      "explanationNo": "Gartnerne sammenligner sonene for å oppdage ujevne resultater som bør undersøkes."
+    },
+    {
+      "id": "q11",
+      "difficulty": "hard",
+      "text": "Plant A has 2 gold leaves and 3 blue dots. Plant B has 3 gold leaves and no blue dots. Which statement is correct?",
+      "options": ["A is Harvest and B is Observe", "Both are Harvest", "A is Observe and B is Water", "Both are Observe"],
+      "correct": 0,
+      "explanation": "A scores 7 and is Harvest. B scores 6 and is Observe.",
+      "explanationNo": "A får 7 og blir Harvest. B får 6 og blir Observe."
+    },
+    {
+      "id": "q12",
+      "difficulty": "hard",
+      "text": "What is the smallest number of blue dots needed for a plant with 2 gold leaves to become Harvest?",
+      "options": ["1", "2", "3", "4"],
+      "correct": 2,
+      "explanation": "Two gold leaves give 4 points. Three blue dots raise the score to 7.",
+      "explanationNo": "To gullblader gir 4 poeng. Tre blå prikker øker summen til 7."
+    },
+    {
+      "id": "q13",
+      "difficulty": "hard",
+      "text": "The sunny zone is predicted correctly 18 of 20 times, while the shaded zone is correct 10 of 20 times. What should the gardeners do?",
+      "options": ["Inspect the difference and collect better examples", "Release the robot without checking", "Delete all shaded plants", "Give every plant the Harvest label"],
+      "correct": 0,
+      "explanation": "The large gap between zones signals that the examples or model behavior need investigation.",
+      "explanationNo": "Den store forskjellen mellom sonene betyr at eksemplene eller modellen bør undersøkes."
+    },
+    {
+      "id": "q14",
+      "difficulty": "hard",
+      "text": "A mislabeled training card says Water for a plant scoring 8. Why can this matter?",
+      "options": ["SproutBot may learn a misleading pattern", "The score automatically becomes 3", "The check garden disappears", "Gold leaves stop counting"],
+      "correct": 0,
+      "explanation": "Training labels guide the pattern learned by SproutBot, so a wrong label can mislead it.",
+      "explanationNo": "Merkelappene styrer mønsteret SproutBot lærer, så feil merking kan villede roboten."
+    },
+    {
+      "id": "q15",
+      "difficulty": "hard",
+      "text": "A plant has 1 gold leaf. How many blue dots would move it from Water directly to Harvest?",
+      "options": ["3", "4", "5", "6"],
+      "correct": 2,
+      "explanation": "One gold leaf gives 2 points. Five blue dots make the total 7, which is Harvest.",
+      "explanationNo": "Ett gullblad gir 2 poeng. Fem blå prikker gir totalt 7, som betyr Harvest."
+    }
+  ]
+}

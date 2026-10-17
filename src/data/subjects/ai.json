@@ -1,0 +1,11 @@
+{
+  "id": "ai",
+  "name": "Pattern Orchard",
+  "short": "Pattern Orchard",
+  "modules": [
+    {
+      "id": "sproutbot-training",
+      "title": "Demo 1: Train SproutBot"
+    }
+  ]
+}
